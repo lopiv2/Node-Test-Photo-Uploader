@@ -12,14 +12,13 @@ In a CMD, enter in the Project directory
 1. Check if you have installed Node.js. If not install from [Node Website](https://nodejs.org/es/)
 2. Install it
 3. Check if you have installed npm, executing `npm -v`
-4. In the project folder execute `npm install express`
-5. Run `npm install` to install dependencies
-6. Install from Docker or Windows, MongoDB database system, and be sure the Server is running.
-7. From Windows: Just download the Installer from [Mongodb Website](https://www.mongodb.com/)
-8. With Docker: Be sure Docker is installed [Docker Site](https://www.docker.com/products/docker-desktop), and run from Command `docker pull mongo`
-9. Create folder data/db to host the database file.
-10. Run Docker container with `docker run --name mongodb -p 27017:27017 -v mongodbdata:/data/db mongo`
-11. Run `node app.js`
+4. Run `npm install` to install dependencies
+5. Install from Docker or Windows, MongoDB database system, and be sure the Server is running.
+6. From Windows: Just download the Installer from [Mongodb Website](https://www.mongodb.com/)
+7. With Docker: Be sure Docker is installed [Docker Site](https://www.docker.com/products/docker-desktop), and run from Command `docker pull mongo`
+8. Create folder data/db to host the database file.
+9. Run Docker container with `docker run --name mongodb -p 27017:27017 -v mongodbdata:/data/db mongo`
+10. Run `node app.js`
 
 ## Usage
 Open your favourite explorer (Chrome, Firefox or whatever), open localhost:8080
